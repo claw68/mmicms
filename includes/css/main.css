@@ -1,0 +1,81 @@
+/* CSS Document */
+body{
+	background: url('../img/bgpic.png');
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: #3B5998;
+}
+
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th {
+	font-weight: bold;	
+}
+
+table th, table td {
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#wrapper {
+	margin:auto;
+	margin-top: 50px;
+	width: 900px;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+#login table td {
+	border: 0px;
+}
+
+#alias {
+	position: absolute;
+	width: 200px;
+	color: #fff;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+#logout {
+	float: right;
+	width: 100px;
+}
+
+#navigation {
+	margin: 60px auto auto;
+	font-size: 20px;
+	text-align: center;
+	font-family: franklin gothic medium;
+	font-weight: bold;
+	font-style: italic;
+	text-transform:uppercase; 
+}
+
+#header {
+	margin: auto;
+	width:  100%;      
+}
+
+#content {
+	margin-top: 30px;
+}
+
+.list {
+	margin-top: 30px;
+}
+
+.nav-active {
+	background: url("../jquery.ui/images/ui-bg_inset-soft_30_f58400_1x100.png") repeat-x scroll 50% 50% #F58400;
+    border: 1px solid #FFAF0F;
+    color: #FFFFFF;
+    font-weight: bold;
+}
